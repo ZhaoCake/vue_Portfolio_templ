@@ -1,16 +1,16 @@
 <script setup lang="ts">
 const repositories = [
   {
-    name: 'awesome-project',
-    description: 'A collection of useful tools and libraries',
-    stars: 128,
-    language: 'TypeScript'
+    name: '编',
+    description: '难绷',
+    stars: 8421,
+    language: 'verilog'
   },
   {
-    name: 'vue-components',
-    description: 'Reusable Vue 3 components',
-    stars: 256,
-    language: 'Vue'
+    name: '编',
+    description: '完事',
+    stars: 1357,
+    language: 'cpp'
   }
 ]
 </script>
@@ -18,7 +18,7 @@ const repositories = [
 <template>
   <div class="max-w-4xl mx-auto">
     <div class="bg-white rounded-lg shadow-md p-8">
-      <h1 class="text-3xl font-bold text-primary-dark mb-8">GitHub Projects</h1>
+      <h1 class="text-3xl font-bold text-primary-dark mb-8">GitHub 项目</h1>
       
       <div class="grid gap-6">
         <div

@@ -61,7 +61,7 @@ const addMessage = () => {
           type="submit"
           class="bg-primary text-white px-6 py-2 rounded-lg hover:bg-primary-dark transition-colors"
         >
-          Post Message
+          留言
         </button>
       </form>
       
@@ -79,7 +79,7 @@ const addMessage = () => {
         </div>
         
         <p v-if="messages.length === 0" class="text-gray-500 text-center py-4">
-          No messages yet. Be the first to post!
+          此处还没有留言，成为第一个留言的人吧。
         </p>
       </div>
     </div>

@@ -11,13 +11,11 @@ const post = ref({
 })
 
 onMounted(() => {
-  // This is where you'll load the actual blog post content
-  // For now, we'll use placeholder content
   post.value = {
     title: route.params.slug as string,
-    date: '2024-02-20',
-    content: 'Your blog content will go here. This is a placeholder that you can replace with your actual blog content.',
-    author: 'John Doe'
+    date: '2024-12-08',
+    content: '这就是，最后的博客了',
+    author: 'Zhao Cake'
   }
 })
 </script>

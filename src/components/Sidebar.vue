@@ -5,17 +5,17 @@ import { HomeIcon, DocumentTextIcon, NewspaperIcon, CodeBracketIcon, ChatBubbleL
 
 const route = useRoute()
 const links = [
-  { name: 'Home', path: '/', icon: HomeIcon },
-  { name: 'Resume', path: '/resume', icon: DocumentTextIcon },
-  { name: 'Blog', path: '/blog', icon: NewspaperIcon },
+  { name: '主页', path: '/', icon: HomeIcon },
+  { name: '简历', path: '/resume', icon: DocumentTextIcon },
+  { name: '博客', path: '/blog', icon: NewspaperIcon },
   { name: 'GitHub', path: '/github', icon: CodeBracketIcon },
-  { name: 'Message Board', path: '/message-board', icon: ChatBubbleLeftRightIcon },
+  { name: '留言板', path: '/message-board', icon: ChatBubbleLeftRightIcon },
 ]
 
 const socialLinks = [
-  { name: 'Twitter', url: 'https://twitter.com' },
-  { name: 'LinkedIn', url: 'https://linkedin.com' },
-  { name: 'Stack Overflow', url: 'https://stackoverflow.com' },
+  { name: 'Zhihu', url: 'https://zhihu.com' },
+  { name: 'CSDN', url: 'https://csdn.com' },
+  { name: 'Bilibili', url: 'https://bilibili.com' },
 ]
 </script>
 

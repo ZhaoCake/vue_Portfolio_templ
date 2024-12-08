@@ -6,7 +6,7 @@ import Internships from '../components/resume/Internships.vue'
 
 <template>
   <div class="max-w-4xl mx-auto">
-    <h1 class="text-3xl font-bold text-primary-dark mb-8">Resume</h1>
+    <h1 class="text-3xl font-bold text-primary-dark mb-8">简历</h1>
     
     <div class="space-y-8">
       <Education />

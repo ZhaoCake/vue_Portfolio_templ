@@ -2,17 +2,17 @@
 const posts = [
   {
     id: 1,
-    title: 'Getting Started with Vue 3',
-    date: '2024-02-20',
-    excerpt: 'Learn how to build modern web applications with Vue 3 and TypeScript.',
-    link: '/blog/getting-started-with-vue-3'
+    title: '笑',
+    date: '2024-12-08',
+    excerpt: '完事',
+    link: '/blog/xiao'
   },
   {
     id: 2,
-    title: 'Best Practices in Web Development',
-    date: '2024-02-15',
-    excerpt: 'Essential practices every web developer should follow.',
-    link: '/blog/web-development-best-practices'
+    title: '抽象',
+    date: '2024-12-08',
+    excerpt: '并且难绷',
+    link: '/blog/chouxiang'
   }
 ]
 </script>
@@ -20,7 +20,7 @@ const posts = [
 <template>
   <div class="max-w-4xl mx-auto">
     <div class="bg-white rounded-lg shadow-md p-8">
-      <h1 class="text-3xl font-bold text-primary-dark mb-8">Blog Posts</h1>
+      <h1 class="text-3xl font-bold text-primary-dark mb-8">博客文章</h1>
       
       <div class="space-y-6">
         <article
@@ -38,7 +38,7 @@ const posts = [
             <time class="text-sm text-gray-500 block mt-1">{{ post.date }}</time>
             <p class="mt-2 text-gray-700">{{ post.excerpt }}</p>
             <span class="inline-block mt-3 text-primary-dark font-medium group-hover:underline">
-              Read more →
+              阅读更多 →
             </span>
           </router-link>
         </article>

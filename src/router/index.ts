@@ -9,7 +9,7 @@ const router = createRouter({
       name: 'home',
       component: Home,
       meta: {
-        title: 'Home - My Portfolio'
+        title: '主页 - 我的作品集'
       }
     },
     {
@@ -17,15 +17,7 @@ const router = createRouter({
       name: 'resume',
       component: () => import('../views/Resume.vue'),
       meta: {
-        title: 'Resume - My Portfolio'
-      }
-    },
-    {
-      path: '/resume/:id',
-      name: 'resume-detail',
-      component: () => import('../views/ResumeDetail.vue'),
-      meta: {
-        title: 'Resume Details - My Portfolio'
+        title: '简历 - 我的作品集'
       }
     },
     {
@@ -33,7 +25,7 @@ const router = createRouter({
       name: 'blog',
       component: () => import('../views/Blog.vue'),
       meta: {
-        title: 'Blog - My Portfolio'
+        title: '博客 - 我的作品集'
       }
     },
     {
@@ -41,7 +33,7 @@ const router = createRouter({
       name: 'blog-post',
       component: () => import('../views/BlogPost.vue'),
       meta: {
-        title: 'Blog Post - My Portfolio'
+        title: '博客 - 我的作品集'
       }
     },
     {
@@ -49,7 +41,7 @@ const router = createRouter({
       name: 'github',
       component: () => import('../views/Github.vue'),
       meta: {
-        title: 'GitHub Projects - My Portfolio'
+        title: 'GitHub项目 - 我的作品集'
       }
     },
     {
@@ -57,7 +49,7 @@ const router = createRouter({
       name: 'message-board',
       component: () => import('../views/MessageBoard.vue'),
       meta: {
-        title: 'Message Board - My Portfolio'
+        title: '留言板 - 我的作品集'
       }
     }
   ]

@@ -1,23 +1,23 @@
 <script setup lang="ts">
 const projects = [
   {
-    title: "E-commerce Platform",
-    description: "Developed a full-stack e-commerce platform using Vue.js and Node.js",
-    technologies: ["Vue.js", "Node.js", "MongoDB", "Docker"],
+    title: "编",
+    description: "编",
+    technologies: ["Vue.js", "Node.js", "Docker"],
     highlights: [
-      "Implemented secure payment processing",
-      "Designed responsive UI with Tailwind CSS",
-      "Integrated real-time inventory management"
+      "编",
+      "编",
+      "编"
     ]
   },
   {
-    title: "Machine Learning Research Project",
-    description: "Conducted research on image classification algorithms",
-    technologies: ["Python", "TensorFlow", "OpenCV"],
+    title: "编",
+    description: "编",
+    technologies: ["Python", "Pytorch", "OpenCV"],
     highlights: [
-      "Achieved 95% accuracy in classification",
-      "Published findings in university journal",
-      "Presented at student research symposium"
+      "编",
+      "编",
+      "编"
     ]
   }
 ]
@@ -25,7 +25,7 @@ const projects = [
 
 <template>
   <section class="mb-8">
-    <h2 class="text-2xl font-bold text-primary-dark mb-4">Projects</h2>
+    <h2 class="text-2xl font-bold text-primary-dark mb-4">项目经历</h2>
     <div class="space-y-4">
       <div 
         v-for="project in projects" 

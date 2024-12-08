@@ -1,6 +1,6 @@
 <script setup lang="ts">
-const name = 'John Doe'
-const title = 'Full Stack Developer'
+const name = 'Zhao Cake'
+const title = '捡垃圾干饭专业人士'
 </script>
 
 <template>
@@ -11,9 +11,7 @@ const title = 'Full Stack Developer'
       
       <div class="prose lg:prose-xl">
         <p class="text-gray-700">
-          Welcome to my personal website! I'm a passionate developer focused on creating
-          elegant solutions to complex problems. Here you can find information about my
-          professional experience, blog posts about technology, and my open-source contributions.
+          欢迎来到我的个人网站！我是一名热衷于为复杂问题创造优雅解决方案的开发者。在这里，您可以找到关于我的职业经历、技术博客文章以及我的开源贡献的信息。
         </p>
       </div>
     </div>

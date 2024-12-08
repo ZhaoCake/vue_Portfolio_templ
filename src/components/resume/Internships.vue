@@ -1,25 +1,25 @@
 <script setup lang="ts">
 const internships = [
   {
-    company: "Tech Solutions Inc.",
-    position: "Software Development Intern",
-    period: "Summer 2023",
+    company: "洗碗房",
+    position: "母亲的抹布",
+    period: "2023夏",
     responsibilities: [
-      "Developed and maintained RESTful APIs using Node.js",
-      "Collaborated with senior developers on front-end features",
-      "Participated in daily stand-ups and sprint planning",
-      "Implemented automated testing using Jest"
+      "编",
+      "看情况",
+      "看情况",
+      "编"
     ]
   },
   {
-    company: "Innovation Labs",
-    position: "Web Development Intern",
-    period: "Summer 2022",
+    company: "编",
+    position: "编",
+    period: "2022夏",
     responsibilities: [
-      "Built responsive web components using React",
-      "Optimized website performance and loading times",
-      "Assisted in UI/UX design improvements",
-      "Worked with version control using Git"
+      "编",
+      "编",
+      "编",
+      "编"
     ]
   }
 ]
@@ -27,7 +27,7 @@ const internships = [
 
 <template>
   <section class="mb-8">
-    <h2 class="text-2xl font-bold text-primary-dark mb-4">Internships</h2>
+    <h2 class="text-2xl font-bold text-primary-dark mb-4">工作经历</h2>
     <div class="space-y-4">
       <div 
         v-for="internship in internships" 
