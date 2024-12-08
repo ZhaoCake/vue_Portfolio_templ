@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #00CED1;
+  --background-color: #ffffff;
+  --text-color: #213547;
+}
+
+:root.dark {
+  --primary-color: #008B8B;
+  --background-color: #1a1a1a;
+  --text-color: #ffffff;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.3s ease;
+}
+
+.page-enter-from,
+.page-leave-to {
+  opacity: 0;
+}
+
+/* Add loading lazy state */
+.lazy-image {
+  @apply transition-opacity duration-300;
+}
+.lazy-image[loading] {
+  @apply opacity-0;
+}
+.lazy-image[loaded] {
+  @apply opacity-100;
+}
+
+/* Optimize animations */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
